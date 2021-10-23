@@ -21,17 +21,12 @@ const Weather = ({ weather, date }) => {
         }
     }
     return (
-<<<<<<< HEAD
-        <div className="widget-container">
-            <font face = "Ariel" color = "black">
-            Place for Weather
-            </font>
-=======
         <div >
-            <div>Weather widget</div>
+            <font face="Ariel" color="black">
+                Place for Weather
+            </font>
             {renderWeather(weather)}
             <div>{date && (date.getHours() + " : " + date.getMinutes() + " : " + date.getSeconds())}</div>
->>>>>>> 597e6d08d323223da1f5886995e43f59be287b5c
         </div>
     )
 }
