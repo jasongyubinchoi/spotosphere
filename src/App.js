@@ -9,7 +9,9 @@ function App() {
     <div className="App">
       <Animated animationIn="zoomIn" animationOut="fadeOut" isVisible={true}>
         <header className="App-header">
-          Spotomosphere
+          <font face = "Times New Roman" size = "32px" color = "black">
+              Spotomosphere
+          </font>
         </header>
       </Animated>
       <MainContainer />
