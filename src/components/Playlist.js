@@ -1,7 +1,8 @@
 import React from 'react'
 
 const Playlist = () => {
-    let weather = 'bad'
+    let weather = 'cloudy'
+    let time = 'day'
     return (
         <div className="widget-container">
             {weather === 'good' ? (
