@@ -10,7 +10,7 @@ const Weather = ({ weather, date }) => {
         switch (weather) {
             case 'sunny':
                 return <img src={process.env.PUBLIC_URL + '/img/sunny.png'} alt={weather} />
-            case 'Clouds':
+            case 'cloudy':
                 return <img src={process.env.PUBLIC_URL + '/img/cloudy.png'} alt={weather} />
             case 'rain':
                 return <img src={process.env.PUBLIC_URL + '/img/rain.gif'} alt={weather} />
@@ -21,7 +21,7 @@ const Weather = ({ weather, date }) => {
         }
     }
     return (
-        <div className="widget-container">
+        <div >
             <div>Weather widget</div>
             {renderWeather(weather)}
             <div>{date && (date.getHours() + " : " + date.getMinutes() + " : " + date.getSeconds())}</div>

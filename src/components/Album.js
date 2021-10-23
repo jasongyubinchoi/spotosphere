@@ -2,7 +2,7 @@ import React from 'react'
 
 const Album = () => {
     return (
-        <div className="widget-container">
+        <div>
             Album here
         </div>
     )
