@@ -10,6 +10,7 @@ const Playlist = () => {
                 <iframe src="https://open.spotify.com/embed/playlist/0lU86qLkSQVI991j4BUTDF" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
             )
             }
+
         </div>
     )
 }
