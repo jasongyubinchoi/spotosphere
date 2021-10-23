@@ -3,8 +3,10 @@ import React from 'react'
 const Album = () => {
     return (
         <div className="widget-container">
-            <img border="0" src="cid:30A1D9A8E7C0405A89F2B3AB12878237@dns">
-            </img>
+            
+            <img 
+            src="https://i.scdn.co/image/ab67706c0000bebb9d9c4e7dd46e8e0ea86ae2c8"
+            alt="new"/>
         </div>
     )
 }
