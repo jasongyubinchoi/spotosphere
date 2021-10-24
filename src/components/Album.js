@@ -280,13 +280,6 @@ const Album = (whether, timeofDay) => {
 
 
 
-<<<<<<< HEAD
-    const Album = () => {
-        return (
-            <div>
-                Album here
-            </div>
-        )
-    }
+}
 
-    export default Album
+export default Album
