@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/spotosphere/static/css/main.15484cd9.chunk.css",
-    "main.js": "/spotosphere/static/js/main.f5564779.chunk.js",
-    "main.js.map": "/spotosphere/static/js/main.f5564779.chunk.js.map",
+    "main.css": "/spotosphere/static/css/main.2af0f31f.chunk.css",
+    "main.js": "/spotosphere/static/js/main.544ce67e.chunk.js",
+    "main.js.map": "/spotosphere/static/js/main.544ce67e.chunk.js.map",
     "runtime-main.js": "/spotosphere/static/js/runtime-main.581a7598.js",
     "runtime-main.js.map": "/spotosphere/static/js/runtime-main.581a7598.js.map",
     "static/js/2.9e4a2912.chunk.js": "/spotosphere/static/js/2.9e4a2912.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.30db343e.chunk.js": "/spotosphere/static/js/3.30db343e.chunk.js",
     "static/js/3.30db343e.chunk.js.map": "/spotosphere/static/js/3.30db343e.chunk.js.map",
     "index.html": "/spotosphere/index.html",
-    "static/css/main.15484cd9.chunk.css.map": "/spotosphere/static/css/main.15484cd9.chunk.css.map",
+    "static/css/main.2af0f31f.chunk.css.map": "/spotosphere/static/css/main.2af0f31f.chunk.css.map",
     "static/js/2.9e4a2912.chunk.js.LICENSE.txt": "/spotosphere/static/js/2.9e4a2912.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.581a7598.js",
     "static/js/2.9e4a2912.chunk.js",
-    "static/css/main.15484cd9.chunk.css",
-    "static/js/main.f5564779.chunk.js"
+    "static/css/main.2af0f31f.chunk.css",
+    "static/js/main.544ce67e.chunk.js"
   ]
 }
