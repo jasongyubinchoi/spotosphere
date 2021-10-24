@@ -10,7 +10,8 @@
 
 .evening-theme {
   text-align: center;
-  background-image: url(https://lh3.googleusercontent.com/proxy/s9jdLxFKZiYzBWHeglgLzTjxLLmIXkmQYEQ3IVPsj9dflyGJ0x0tSTbYYS2vPYczPQbO8ZuhdKnyjJOF7A_ZQ4klm3Gjhv4ppplMIMhRvXVnfcE5y0NmWA);
+  /* background-image: url(https://lh3.googleusercontent.com/proxy/s9jdLxFKZiYzBWHeglgLzTjxLLmIXkmQYEQ3IVPsj9dflyGJ0x0tSTbYYS2vPYczPQbO8ZuhdKnyjJOF7A_ZQ4klm3Gjhv4ppplMIMhRvXVnfcE5y0NmWA); */
+  background-image: url(https://jasongyubinchoi.github.io/spotosphere/img/bg/evening.jpg);
   background-size: cover;
   min-height: 100vh;
   display: flex;
