@@ -79,6 +79,14 @@
   width: 50%;
 }
 
+#mood-img {
+  box-shadow: inset 0px 0px 10px 20px white;
+  margin: 40px;
+  width: 70%;
+  opacity:0.8;
+}
+
+
 #clock{
   color: white;
   font-family: 'Roboto Mono', sans-serif;
