@@ -9,6 +9,8 @@
     "react": "^17.0.2",
     "react-animated-css": "^1.2.1",
     "react-dom": "^17.0.2",
+    "react-imgpro": "^1.4.1",
+    "react-resize-image": "^1.0.4",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
