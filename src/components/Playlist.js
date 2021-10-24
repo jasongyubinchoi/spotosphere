@@ -44,12 +44,8 @@ const Playlist = ({ weather, timeOfDay }) => {
             alert("Error")
         }
     }
-const Playlist = () => {
-    let weather = 'cloudy'
-    // let time = 'day'
-
     return (
-        <div >
+        <div>
             {musicPlayer(weather, timeOfDay)}
         </div>
     );

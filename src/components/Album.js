@@ -2,25 +2,7 @@ import React from 'react'
 import ProcessImage from 'react-imgpro';
 
 
-const Album = (whether, timeofDay) => {
-
-
-    if (whether == "sunny" && timeofDay == "morning") {
-        return (
-            <div className="widget-container">
-                <ProcessImage
-                    image='https://f4.bcbits.com/img/a2828033477_10.jpg'
-                    resize={{ width: 400, height: 400 }}
-                    colors={{
-                        mix: {
-                            color: 'mistyrose',
-                            amount: 20
-                        }
-                    }}
-                    processedImage={(src, err) => this.setState({ src, err })}
-                />
-
-
+const Album = (whether, timeofDay) => { 
     
     if(whether == "sunny" && timeofDay == "morning")  {
         return (
@@ -509,27 +491,6 @@ const Album = (whether, timeofDay) => {
             </div>
         )
     }
-
-
-
-            <ProcessImage
-                image="https://snworksceo.imgix.net/dpn-34s/74f3f217-884f-422a-a068-4263be746830.sized-1000x1000.jpg?w=1000"
-                resize={{ width: 400, height: 400 }}
-                colors={{
-                mix: {
-                    color: 'mistyrose',
-                    amount: 20
-                }
-                }}
-                processedImage={(src, err) => this.setState({ src, err})}
-         />
-     
-         </div>
-        )
-    }
-
-    
-
 
 }
 export default Album
