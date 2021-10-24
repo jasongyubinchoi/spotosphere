@@ -10,7 +10,8 @@
 
 .evening-theme {
   text-align: center;
-  background-image: url(https://live.staticflickr.com/8183/8403559985_3f22bb5e5b_b.jpg);
+  background-image: url(https://lh3.googleusercontent.com/proxy/s9jdLxFKZiYzBWHeglgLzTjxLLmIXkmQYEQ3IVPsj9dflyGJ0x0tSTbYYS2vPYczPQbO8ZuhdKnyjJOF7A_ZQ4klm3Gjhv4ppplMIMhRvXVnfcE5y0NmWA);
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -21,7 +22,8 @@
 
 .night-theme {
   text-align: center;
-  background-image: url(https://freerangestock.com/sample/52190/stars-background-shows-night-time-and-midnight.jpg);
+  background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/11/16/61024/night-time-15.jpg);
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,7 +34,8 @@
 
 .morning-theme {
   text-align: center;
-  background-color: #1a1815;
+  background-image: url(https://res.cloudinary.com/rebelwalls/image/upload/b_black,c_fill,f_auto,fl_progressive,h_533,q_auto,w_800/v1428564257/article/R10171_image1);
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -43,7 +46,8 @@
 
 .afternoon-theme {
   text-align: center;
-  background-color: #1a1815;
+  background-image: url(https://photographyjournal2013.files.wordpress.com/2013/07/late-afternoon-light-in-early-july.jpg);
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -76,7 +80,7 @@
 }
 
 #clock{
-  color: black;
+  color: white;
   font-family: 'Roboto Mono', sans-serif;
   font-size: 90px;
 }
