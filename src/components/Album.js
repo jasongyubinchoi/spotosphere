@@ -282,4 +282,5 @@ const Album = (whether, timeofDay) => {
 
 }
 
+console.log("pull")
 export default Album
