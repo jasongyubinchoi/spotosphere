@@ -263,7 +263,7 @@ const Album = (whether, timeofDay) => {
         return (
             <div className="widget-container">
             <ProcessImage
-                image="https://cdn.pixabay.com/photo/2017/08/19/17/23/lightning-2659244_1280.jpg"
+                image="https://snworksceo.imgix.net/dpn-34s/74f3f217-884f-422a-a068-4263be746830.sized-1000x1000.jpg?w=1000"
                 resize={{ width: 400, height: 400 }}
                 colors={{
                 mix: {
