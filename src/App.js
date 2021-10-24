@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 // Require adding cdn in index.html
 import { Animated } from "react-animated-css"
