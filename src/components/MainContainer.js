@@ -37,8 +37,9 @@ const MainContainer = () => {
         setInterval(updateWeather(), 5000);
         setInterval(updateDate, 1000);
     }, [])  //! Important! [] dependency means called only once
-
+    
     return (
+        
         <div className="main-container">
             <Animated className="widget-container"
                 animationInDelay={300} animationIn="zoomIn" animationOut="fadeOut" isVisible={true}>
