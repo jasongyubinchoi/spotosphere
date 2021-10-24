@@ -24,7 +24,7 @@ const Weather = ({ weather, date }) => {
                 Current Weather
             </font> */}
             <div>{renderWeather(weather)}</div>
-            <div id="clock">{date && (date.getHours() + " : " + String(date.getMinutes()).padStart(2, '0') + " : " + String(date.getSeconds()).padStart(2, '0'))}</div>
+            <div id="clock">{date && (String(date.getHours()).padStart(2, '0') + " : " + String(date.getMinutes()).padStart(2, '0') + " : " + String(date.getSeconds()).padStart(2, '0'))}</div>
         </div>
     )
 }

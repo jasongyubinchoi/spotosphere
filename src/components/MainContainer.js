@@ -1,22 +1,10 @@
-import { useState, useEffect } from 'react';
 import React from 'react'
 import { Animated } from "react-animated-css"
 import Weather from './Weather';
 import Album from './Album';
 import Playlist from './Playlist';
 
-const MainContainer = () => {
-    const [weather, weatherSet] = useState('')
-    const [date, dateSet] = useState(new Date())
-    const convertWeather = (weather) => {
-        switch (weather) {
-            case 'Thunderstorm': return 'thunder'
-            case 'Rain': return 'rain'
-            case 'Clear': return 'sunny'
-            default: return 'cloudy'
-        }
-    }
-    const updateDate = () => dateSet(new Date());
+const MainContainer = ({weather, date}) => {
     const getTimeOfDay = (hour) => {
         if (hour <= 5) return 'night'
         if (hour <= 12) return 'morning'
@@ -24,6 +12,7 @@ const MainContainer = () => {
         if (hour <= 19) return 'evening'
         else return 'night'
     }
+
 
     useEffect(() => {
         const updateWeather = () => {
@@ -37,7 +26,6 @@ const MainContainer = () => {
         setInterval(updateWeather(), 5000);
         setInterval(updateDate, 1000);
     }, [])  //! Important! [] dependency means called only once
-    
     return (
         
         <div className="main-container">
