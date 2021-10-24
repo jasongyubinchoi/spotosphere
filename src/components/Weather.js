@@ -1,32 +1,30 @@
 import React from 'react'
-// import cloudy from '../../img/cloudy.png'
-// import rain from '../../img/cloudy.png'
-// import sunny from '../../img/cloudy.png'
-// import thunder from '../../img/cloudy.png'
 
 const Weather = ({ weather, date }) => {
     const renderWeather = (weather) => {
         console.log(weather)
         switch (weather) {
             case 'sunny':
-                return <img src={process.env.PUBLIC_URL + '/img/sunny.png'} alt={weather} />
+                if (date.getHours() <= 5 || date.getHours() >= 20)
+                    return <img id="weather-img" src={process.env.PUBLIC_URL + '/img/sunny-night.png'} alt={weather} />
+                return <img id="weather-img" src={process.env.PUBLIC_URL + '/img/sunny.png'} alt={weather} />
             case 'cloudy':
-                return <img src={process.env.PUBLIC_URL + '/img/cloudy.png'} alt={weather} />
+                return <img id="weather-img" src={process.env.PUBLIC_URL + '/img/cloudy.png'} alt={weather} />
             case 'rain':
-                return <img src={process.env.PUBLIC_URL + '/img/rain.gif'} alt={weather} />
+                return <img id="weather-img" src={process.env.PUBLIC_URL + '/img/rain.gif'} alt={weather} />
             case 'thunder':
-                return <img src={process.env.PUBLIC_URL + '/img/thunder.png'} alt={weather} />
+                return <img id="weather-img" src={process.env.PUBLIC_URL + '/img/thunder.png'} alt={weather} />
             default:
                 console.log(weather)
         }
     }
     return (
         <div >
-            <font face="Ariel" color="black">
-                Place for Weather
-            </font>
-            {renderWeather(weather)}
-            <div>{date && (date.getHours() + " : " + date.getMinutes() + " : " + date.getSeconds())}</div>
+            {/* <font face="Ariel" color="black">
+                Current Weather
+            </font> */}
+            <div>{renderWeather(weather)}</div>
+            <div id="clock">{date && (date.getHours() + " : " + String(date.getMinutes()).padStart(2, '0') + " : " + String(date.getSeconds()).padStart(2, '0'))}</div>
         </div>
     )
 }

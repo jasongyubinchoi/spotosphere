@@ -7,15 +7,32 @@
   align-items: center;
   /* justify-content: center; */
   font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.App-header {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 90px;
 }
 
 .main-container {
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-top: 30px;
 }
 .widget-container {
-    width: 33%;
+  width: 33%;
+  color: black;
+  font-family: 'Ariel', sans-serif;
+  font-size: 70px;
+}
+
+#weather-img {
+  margin: 50px;
+  width: 50%;
+}
+
+#clock{
+  color: black;
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 90px;
 }
