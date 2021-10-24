@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Playlist = ({ weather, timeOfDay }) => {
     const musicPlayer = (weather, timeOfDay) => {
         // return <iframe title="Uplifting" src="https://open.spotify.com/embed/playlist/3a8ssl2IKbhSmEzzIPYvbC" width="100%" height="650" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
@@ -43,6 +44,10 @@ const Playlist = ({ weather, timeOfDay }) => {
             alert("Error")
         }
     }
+const Playlist = () => {
+    let weather = 'cloudy'
+    // let time = 'day'
+
     return (
         <div >
             {musicPlayer(weather, timeOfDay)}
